@@ -66,7 +66,7 @@ public class AssistantApplication {
 
     @Bean
     QuestionAnswerAdvisor questionAnswerAdvisor(VectorStore vectorStore) {
-        return new QuestionAnswerAdvisor(vectorStore);
+        return QuestionAnswerAdvisor.builder(vectorStore).build();
     }
 
     @Bean

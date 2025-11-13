@@ -380,8 +380,8 @@ CustomAdvisor customAdvisor() {
    ├─ SyncMcpToolCallbackProvider 转发请求
    ├─ MCP Client → HTTP → Scheduler 服务
    ├─ Scheduler.schedule(1, "Buddy") 执行
-   ├─ 返回: "2024-01-15T10:00:00Z" (3天后)
-   └─ AI 整合结果: "已为您预约在 2024-01-15 领养 Buddy"
+   ├─ 返回: "2025-11-16T10:00:00Z" (3天后)
+   └─ AI 整合结果: "已为您预约在 2025-11-16 领养 Buddy"
 ```
 
 ---

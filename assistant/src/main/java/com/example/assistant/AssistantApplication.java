@@ -142,7 +142,7 @@ class AssistantController {
                 """;
         this.ai = ai
                 .defaultAdvisors(promptChatMemoryAdvisor, questionAnswerAdvisor)
-                .defaultToolCallbacks(new SyncMcpToolCallbackProvider(schedulerMcp))
+                .defaultToolCallbacks(SyncMcpToolCallbackProvider.builder().mcpClients(schedulerMcp).build())
                 .defaultSystem(system)
                 .build();
     }

@@ -18,7 +18,7 @@ cd scheduler
 cd ../adoptions
 docker-compose up -d postgres
 
-export OPENAI_API_KEY=your-dashscope-api-key
+export OPENAI_API_KEY=your-openai-api-key
 ./mvnw spring-boot:run
 ```
 
